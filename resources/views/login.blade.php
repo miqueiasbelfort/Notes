@@ -13,7 +13,7 @@
                     <!-- form -->
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-12">
-                            <form action="/loginSubmit" method="post" novalidate>
+                            <form action="/login" method="post" novalidate>
                                 @csrf
                                 <div class="mb-3">
                                     <label for="text_username" class="form-label">Username</label>
